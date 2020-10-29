@@ -1,0 +1,222 @@
+//=======ОБНУЛЕНИЕ========================================================
+
+@import "normalize.scss";
+
+//=======BODY==============================================================
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+//=======HEADER============================================================
+.wrapper {
+	background-color: #E5E5E5;
+	max-height: 100%;
+	overflow: hidden;
+
+}
+.header {
+
+}
+.container {
+	max-width: 1830px;
+	min-width: 1380px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+	padding-bottom: 27px;
+}
+
+//=ЛОГОТИП
+.logo {
+
+		&__img {
+			width: 97px;
+		}
+}
+
+//=НАВИГАЦИЯ
+.nav {
+	margin-left: -685px;
+		&__menu {
+			display: flex;
+		}
+
+		&__item {
+			padding-left: 27px;
+			padding-right: 27px;
+
+			&:first-child {
+				padding-left: 0px;
+			}
+			&:last-child {
+				padding-right: 0px;
+			}
+		}
+		&__link {
+			font-size: 18px;
+			color: #2B3541;
+			line-height: 200%;
+			border-bottom: 1px solid transparent;
+			&:hover {
+				border-bottom: 1px solid #2B3541;
+				transition: 0.2s;
+			}
+		}
+}
+
+//=СОЦИАЛЬНЫЕ СЕТИ
+.social {
+	position: relative;
+	
+		&__link {
+			padding-left: 0px;
+			padding-right: 60px;
+			
+			&:first-child {
+				padding-left: 0px;
+			}
+			&:last-child{
+				padding-right: 44px;
+				color: #2B3541;
+			}
+		}
+
+		&__imeg {
+			position: absolute;
+			width: 30px;
+			height: 30px;
+			opacity: 0.8;
+			&:hover {
+				width: 38px;
+				height: 38px;
+				transition: 0.2s;
+				opacity: 1;
+			}
+		}
+}
+
+//=======ONLINE TRAININGS=================================================
+
+.main {
+}
+.content {
+}
+
+.online {
+		&__container {
+			max-width: 1325px;
+			margin: 0 auto;
+		}
+
+		&__row {
+			display: flex;
+		}
+
+		&__body {
+		}
+
+		&__title {
+			width: 676px;
+			font-weight: 700;
+			font-size: 48px;
+			line-height: 125%;
+			letter-spacing: 0.03em;
+			text-transform: uppercase;
+			color: #2B3541;
+			margin-top: 220px;
+			margin-left: 85px;
+			position: relative;
+			z-index: 4;
+		}
+
+		&__subtitle {
+			font-size: 40px;
+			line-height: 125%;
+			color: #2B3541;
+			margin-top: 46px;
+			margin-left: 84px;
+		}
+		&__span {
+			display: inline-block;
+			margin-left: 10px;
+			font-size: 40px;
+			line-height: 125%;
+			color: #2B3541;
+			position: relative;
+			z-index: 4;
+		}
+	
+		&__description {
+			width: 466px;
+			font-size: 18px;
+			line-height: 150%;
+			color: #2B3541;
+			padding-top: 20px;
+			padding-left: 175px;
+			position: relative;
+			z-index: 4;
+		}
+		&__button {
+			height: 64px;
+			width: 253px;
+			font-size: 16px;
+			font-weight: 700;
+			font-size: 16px;
+			line-height: 150%;
+			text-align: center;
+			letter-spacing: 0.03em;
+			text-transform: uppercase;
+			color: #2B3541;
+			margin-top: 35px;
+			margin-left: 175px;
+			background-color: #FBF138;
+			position: relative;
+			z-index: 4;
+			display: inline-block;
+			border-radius: 10px;
+			padding: 20px 30px;
+			transition: 0.2s;
+		}
+		&__button:active{
+			background-color: #2B3541;
+			box-shadow: 0px 13px 24px rgba(70, 86, 106, 0.2);
+			color: #FBF138;
+		}
+
+		&__arrov {
+			margin-top: 182px;
+			padding-left: 174px;
+		}
+		&__image {
+			margin-top: -3px;
+			margin-left: -345px;
+			bottom: 200px;
+		}
+}
+
+.arrov {
+	width: 52px;
+}
+.img {
+	max-width: 996px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

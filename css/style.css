@@ -440,6 +440,9 @@ body {
   top: 172px;
   height: 433px;
   top: -155px;
+  background: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 100%);
+  opacity: 0.7;
+  box-shadow: 0px 13px 30px rgba(186, 180, 69, 0.2);
 }
 
 .heart {
@@ -457,15 +460,19 @@ body {
 }
 
 .schedule-item {
+  position: relative;
   min-width: 367px;
 }
 
 .schedule-item__data {
+  position: relative;
   text-align: end;
   font-size: 18px;
   line-height: 150%;
   color: #010101;
   opacity: 0.7;
+  top: 20px;
+  right: 30px;
 }
 
 .schedule-item__icon {
@@ -474,9 +481,48 @@ body {
   z-index: 8;
 }
 
+.schedule-item__icon_icon1 {
+  position: relative;
+  top: 74px;
+  left: 30px;
+}
+
+.schedule-item__icon_icon2 {
+  position: relative;
+  top: 206px;
+  left: 30px;
+}
+
+.schedule-item__icon_icon3 {
+  position: relative;
+  top: 148px;
+  left: 30px;
+}
+
+.schedule-item__icon_icon4 {
+  position: relative;
+  top: 114px;
+  left: 30px;
+}
+
+.schedule-item__icon_icon5 {
+  position: relative;
+  top: 110px;
+  left: 30px;
+}
+
+.schedule-item__icon_icon6 {
+  position: relative;
+  top: 198px;
+  left: 30px;
+}
+
 .schedule-item__content {
+  position: absolute;
   font-weight: bold;
   font-size: 18px;
   line-height: 125%;
   color: #2B3541;
+  bottom: 19px;
+  left: 30px;
 }

@@ -379,26 +379,63 @@ body{
 }
 
 .schedule-item {
+	position: relative;
 	min-width: 367px;
 		&__data {
+			position: relative;
 			text-align: end;
 			font-size: 18px;
 			line-height: 150%;
 			color: #010101;
 			opacity: 0.7;
+			top: 20px;
+			right: 30px;
 		}
 
 		&__icon {
 			width: 65px;
 			height: 65px;
 			z-index: 8;
+				&_icon1 {
+					position: relative;
+					top: 74px;
+					left: 30px;
+				}
+				&_icon2 {
+					position: relative;
+					top: 206px;
+					left: 30px;
+				}
+				&_icon3 {
+					position: relative;
+					top: 148px;
+					left: 30px;
+				}
+				&_icon4 {
+					position: relative;
+					top: 148px;
+					left: 30px;
+				}
+				&_icon5 {
+					position: relative;
+					top: 148px;
+					left: 30px;
+				}
+				&_icon6 {
+					position: relative;
+					top: 148px;
+					left: 30px;
+				}
 		}
 
 		&__content {
+			position: absolute;
 			font-weight: bold;
 			font-size: 18px;
 			line-height: 125%;
 			color: #2B3541;
+			bottom: 19px;
+			left: 30px;
 		}
 }
 
@@ -408,4 +445,6 @@ body{
 .schedule-item {
 
 }
+
+
 

@@ -360,10 +360,12 @@ body{
 }
 .jump {
 	position: relative;
-	border: 1px solid rgba(43,53,65,0.5);
 	top: 172px;
 	height: 433px;
 	top: -155px;
+	background: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 100%);
+	opacity: 0.7;
+	box-shadow: 0px 13px 30px rgba(186, 180, 69, 0.2);
 }
 .heart {
 	position: relative;
@@ -413,17 +415,17 @@ body{
 				}
 				&_icon4 {
 					position: relative;
-					top: 148px;
+					top: 112px;
 					left: 30px;
 				}
 				&_icon5 {
 					position: relative;
-					top: 148px;
+					top: 108px;
 					left: 30px;
 				}
 				&_icon6 {
 					position: relative;
-					top: 148px;
+					top: 196px;
 					left: 30px;
 				}
 		}

@@ -436,13 +436,14 @@ body {
 
 .jump {
   position: relative;
-  border: 1px solid rgba(43, 53, 65, 0.5);
   top: 172px;
   height: 433px;
   top: -155px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FBF138), to(rgba(253, 249, 182, 0.45)));
   background: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 100%);
   opacity: 0.7;
-  box-shadow: 0px 13px 30px rgba(186, 180, 69, 0.2);
+  -webkit-box-shadow: 0px 13px 30px rgba(186, 180, 69, 0.2);
+          box-shadow: 0px 13px 30px rgba(186, 180, 69, 0.2);
 }
 
 .heart {
@@ -501,19 +502,19 @@ body {
 
 .schedule-item__icon_icon4 {
   position: relative;
-  top: 114px;
+  top: 112px;
   left: 30px;
 }
 
 .schedule-item__icon_icon5 {
   position: relative;
-  top: 110px;
+  top: 108px;
   left: 30px;
 }
 
 .schedule-item__icon_icon6 {
   position: relative;
-  top: 198px;
+  top: 196px;
   left: 30px;
 }
 

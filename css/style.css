@@ -441,7 +441,6 @@ body {
   top: -155px;
   background: -webkit-gradient(linear, left top, left bottom, from(#FBF138), to(rgba(253, 249, 182, 0.45)));
   background: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 100%);
-  opacity: 0.7;
   -webkit-box-shadow: 0px 13px 30px rgba(186, 180, 69, 0.2);
           box-shadow: 0px 13px 30px rgba(186, 180, 69, 0.2);
 }
@@ -476,10 +475,21 @@ body {
   right: 30px;
 }
 
+.schedule-item__data_dats {
+  position: relative;
+  text-align: end;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #2B3541;
+  top: 20px;
+  right: 30px;
+  opacity: 0.7;
+}
+
 .schedule-item__icon {
   width: 65px;
   height: 65px;
-  z-index: 8;
 }
 
 .schedule-item__icon_icon1 {
@@ -518,12 +528,32 @@ body {
   left: 30px;
 }
 
-.schedule-item__content {
+.schedule-item__contents {
   position: absolute;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 125%;
   color: #2B3541;
   bottom: 19px;
+  left: 30px;
+}
+
+.schedule-item__contents_content {
+  position: absolute;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 125%;
+  color: #2B3541;
+  bottom: 122px;
+  left: 30px;
+}
+
+.schedule-item__target {
+  position: absolute;
+  width: 306px;
+  font-size: 18px;
+  line-height: 150%;
+  color: #2B3541;
+  bottom: 20px;
   left: 30px;
 }

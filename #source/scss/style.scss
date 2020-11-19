@@ -364,7 +364,6 @@ body{
 	height: 433px;
 	top: -155px;
 	background: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 100%);
-	opacity: 0.7;
 	box-shadow: 0px 13px 30px rgba(186, 180, 69, 0.2);
 }
 .heart {
@@ -392,12 +391,21 @@ body{
 			opacity: 0.7;
 			top: 20px;
 			right: 30px;
+			&_dats {
+				position: relative;
+				text-align: end;
+				font-weight: 700;
+				font-size: 18px;
+				line-height: 150%;
+				color: #2B3541;
+				top: 20px;
+				right: 30px;
+				opacity: 0.7;
+			}
 		}
-
 		&__icon {
 			width: 65px;
 			height: 65px;
-			z-index: 8;
 				&_icon1 {
 					position: relative;
 					top: 74px;
@@ -430,13 +438,34 @@ body{
 				}
 		}
 
-		&__content {
+		&__contents {
 			position: absolute;
-			font-weight: bold;
+			font-weight: 700;
 			font-size: 18px;
 			line-height: 125%;
 			color: #2B3541;
 			bottom: 19px;
+			left: 30px;
+			
+			&_content {
+				position: absolute;
+				font-weight: 700;
+				font-size: 18px;
+				line-height: 125%;
+				color: #2B3541;
+				bottom: 122px;
+				left: 30px;
+			}
+			
+		}
+
+		&__target {
+			position: absolute;
+			width: 306px;
+			font-size: 18px;
+			line-height: 150%;
+			color: #2B3541;
+			bottom: 20px;
 			left: 30px;
 		}
 }

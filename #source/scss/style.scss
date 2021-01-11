@@ -360,6 +360,7 @@ body{
 }
 .jump {
 	position: relative;
+	border: 1px solid #F3F3F3;
 	top: 172px;
 	height: 433px;
 	top: -155px;
@@ -437,7 +438,6 @@ body{
 					left: 30px;
 				}
 		}
-
 		&__contents {
 			position: absolute;
 			font-weight: 700;
@@ -446,7 +446,6 @@ body{
 			color: #2B3541;
 			bottom: 19px;
 			left: 30px;
-			
 			&_content {
 				position: absolute;
 				font-weight: 700;
@@ -456,9 +455,30 @@ body{
 				bottom: 122px;
 				left: 30px;
 			}
-			
-		}
+			&_d {
+				position: absolute;
+				font-weight: 700;
+				font-size: 18px;
+				line-height: 125%;
+				color: #2B3541;
+				bottom: 19px;
+				left: 30px;
+			}
+			&_d:hover {
+				color: brown;
+			}
 
+		}
+		&__installation {
+			position: absolute;
+			width: 306px;
+			font-size: 18px;
+			line-height: 150%;
+			color: #2B3541;
+			bottom: 0px;
+			left: 30px;
+			opacity: 0;
+		}
 		&__target {
 			position: absolute;
 			width: 306px;
@@ -469,6 +489,11 @@ body{
 			left: 30px;
 		}
 }
+.schedule-item:hover {
+	border: 1px solid #F3F3F3;
+	transition: 0,2s;
+}
+
 
 
 

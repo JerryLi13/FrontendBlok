@@ -589,3 +589,122 @@ body {
   -webkit-transition: 0,2s;
   transition: 0,2s;
 }
+
+.contentinfo {
+  margin-bottom: 100px;
+}
+
+.contentinfo-container {
+  max-width: 1143px;
+  min-width: 1143px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contentinfo-row {
+  margin-top: 110px;
+}
+
+.contentinfo-row__circle {
+  position: relative;
+  left: -8px;
+}
+
+.contentinfo-row__title {
+  position: relative;
+  display: inline-block;
+  width: 587px;
+  top: 30px;
+  left: -52px;
+}
+
+::-webkit-input-placeholder {
+  color: #2B3541;
+  opacity: 0.5;
+  padding-left: 18px;
+}
+
+:-moz-placeholder {
+  color: #2B3541;
+  opacity: 0.5;
+  padding-left: 18px;
+}
+
+/* Firefox 19+ */
+:-moz-placeholder {
+  color: #2B3541;
+  opacity: 0.5;
+  padding-left: 18px;
+}
+
+/* Firefox 18- */
+:-ms-input-placeholder {
+  color: #2B3541;
+  opacity: 0.5;
+  padding-left: 18px;
+}
+
+.contentinfo-form-item {
+  margin-top: 20px;
+}
+
+.contentinfo-form-item__email {
+  position: relative;
+  left: 0px;
+  width: 372px;
+  height: 65px;
+  font-size: 18px;
+  line-height: 150%;
+  color: #2B3541;
+}
+
+.contentinfo-form-item__btn {
+  position: relative;
+  left: 16px;
+  width: 225px;
+  height: 65px;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2B3541;
+  background: #FBF138;
+  -webkit-box-shadow: 0px 13px 24px rgba(251, 241, 56, 0.2);
+          box-shadow: 0px 13px 24px rgba(251, 241, 56, 0.2);
+}
+
+.contentinfo-form-check {
+  position: relative;
+  padding-top: 10px;
+  left: -155px;
+}
+
+.ontenctinfo-form-check__consent {
+  position: relative;
+  top: 2px;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.contentinfo-form-link {
+  display: inline-block;
+  position: relative;
+  left: 3px;
+}
+
+.ontenctinfo-form-link__text {
+  font-size: 11px;
+  line-height: 150%;
+  color: #2B3541;
+  opacity: 0.5;
+}
+
+.ontenctinfo-form-link__link {
+  font-size: 11px;
+  line-height: 150%;
+  color: #2B3541;
+  opacity: 0.5;
+  text-decoration: underline;
+}
